@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Machine-Learning-WIth-Deployment
+Version: 0.0.1
+Author: Yugal
+Author-email: yugalchambhare2001@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
