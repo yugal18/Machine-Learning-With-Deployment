@@ -1,0 +1,10 @@
+[2025-01-17 11:19:52,204] 25 INFO - Entered the data ingestion method or component
+[2025-01-17 11:19:52,210] 30 INFO - Read the dataset as dataframe
+[2025-01-17 11:19:52,218] 37 INFO - Raw data saved at artifacts\raw.csv
+[2025-01-17 11:19:52,218] 40 INFO - Train-test split initiated
+[2025-01-17 11:19:52,227] 47 INFO - Ingestion of the data is completed
+[2025-01-17 11:19:52,252] 74 INFO - Read train and test data completed
+[2025-01-17 11:19:52,252] 76 INFO - Obtaining data preprocessing object
+[2025-01-17 11:19:52,252] 53 INFO - Categorical columns : ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-01-17 11:19:52,252] 54 INFO - Numerical columns : ['writing score', 'reading score']
+[2025-01-17 11:19:52,263] 89 INFO - Applying preprocessing object on training dataframe and testing dataframe

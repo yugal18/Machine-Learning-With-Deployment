@@ -1,0 +1,4 @@
+[2025-01-17 10:45:13,125] 26 INFO - Entered the data ingestion method or component
+[2025-01-17 10:45:13,148] 29 INFO - Read the datasetas dataframe
+[2025-01-17 10:45:13,156] 35 INFO - Train test split initiated
+[2025-01-17 10:45:13,168] 42 INFO - Ingestion of the data is completed
