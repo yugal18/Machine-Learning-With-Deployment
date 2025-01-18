@@ -7,7 +7,7 @@ This repository showcases a comprehensive machine learning pipeline, including d
 ## 🚀 **Project Structure**
 
 The project is organized into several directories and files to make the workflow more modular and maintainable. Below is the structure:
-
+'''bash
 ├── artifacts/                                  # Stores intermediate outputs like processed data and models
 ├── build/                                      # Build files for the project
 ├── catboost_info/                              # Logs and metadata for CatBoost models
@@ -34,7 +34,7 @@ The project is organized into several directories and files to make the workflow
 ├── requirements.txt                            # Python dependencies
 ├── setup.py                                    # Setup script for project packaging
 ├── app.py                                      # Main Flask application
-
+'''
 
 
 
@@ -63,7 +63,7 @@ The project is organized into several directories and files to make the workflow
 ## ⚙️ **Setup Instructions**
 
 ### **Prerequisites**
-- Python 3.9+  
+- Python 
 - Virtual environment (venv) or conda
 
 ---
