@@ -20,6 +20,9 @@ The project is organized into several directories and files to make the workflow
 │   └── Model_Training.ipynb                    # Notebook for training models
 ├── src/                                        # Source code for the ML pipeline
 │   ├── components/                             # Core components for the pipeline
+│   │   ├── data_ingestion.py                   # Data ingestion logic
+│   │   ├── data_transformation.py              # Data transformation logic
+│   │   └── model_trainer.py                    # Model training logic
 │   ├── pipeline/                               # Training and prediction pipelines
 │   │   ├── train_pipeline.py                   # Training pipeline
 │   │   ├── predict_pipeline.py                 # Prediction pipeline
@@ -36,6 +39,7 @@ The project is organized into several directories and files to make the workflow
 ├── setup.py                                    # Setup script for project packaging
 ├── app.py                                      # Main Flask application
 </pre>
+
 
 
 
