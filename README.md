@@ -8,32 +8,35 @@ This repository showcases a comprehensive machine learning pipeline, including d
 
 The project is organized into several directories and files to make the workflow more modular and maintainable. Below is the structure:
 
-└── artifacts/                                  # Stores intermediate outputs like processed data and models
-└── build/                                      # Build files for the project
-└── catboost_info/                              # Logs and metadata for CatBoost models
-└── dist/                                       # Distribution files
-└── logs/                                       # Execution logs for debugging and monitoring
-└── notebook/                                   # Jupyter notebooks for analysis and experiments
-│   └── data/
-│   └── EDA_Student_Performance.ipynb           # Exploratory Data Analysis notebook
+<pre>
+├── artifacts/                                  # Stores intermediate outputs like processed data and models
+├── build/                                      # Build files for the project
+├── catboost_info/                              # Logs and metadata for CatBoost models
+├── dist/                                       # Distribution files
+├── logs/                                       # Execution logs for debugging and monitoring
+├── notebook/                                   # Jupyter notebooks for analysis and experiments
+│   ├── data/
+│   ├── EDA_Student_Performance.ipynb           # Exploratory Data Analysis notebook
 │   └── Model_Training.ipynb                    # Notebook for training models
-└── src/                                        # Source code for the ML pipeline
-│   └── components/                             # Core components for the pipeline
-│   └── pipeline/                               # Training and prediction pipelines
-│   └── train_pipeline.py                       # Training pipeline
-│   └── predict_pipeline.py                     # Prediction pipeline
-│   └── exception.py                            # Custom exception handling
-│   └── logger.py                               # Logging utility
+├── src/                                        # Source code for the ML pipeline
+│   ├── components/                             # Core components for the pipeline
+│   ├── pipeline/                               # Training and prediction pipelines
+│   │   ├── train_pipeline.py                   # Training pipeline
+│   │   ├── predict_pipeline.py                 # Prediction pipeline
+│   ├── exception.py                            # Custom exception handling
+│   ├── logger.py                               # Logging utility
 │   └── utils.py                                # Helper functions
-└── templates/                                  # HTML templates for the web app
-│   └── home.html                               # Home page template
+├── templates/                                  # HTML templates for the web app
+│   ├── home.html                               # Home page template
 │   └── index.html                              # Main interface template
-└── venv/                                       # Virtual environment for dependencies
-└── .gitignore                                  # Files and folders to ignore in version control
-└── README.md                                   # Project documentation
-└── requirements.txt                            # Python dependencies
-└── setup.py                                    # Setup script for project packaging
-└── app.py                                      # Main Flask application
+├── venv/                                       # Virtual environment for dependencies
+├── .gitignore                                  # Files and folders to ignore in version control
+├── README.md                                   # Project documentation
+├── requirements.txt                            # Python dependencies
+├── setup.py                                    # Setup script for project packaging
+├── app.py                                      # Main Flask application
+</pre>
+
 
 
 
