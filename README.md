@@ -8,6 +8,7 @@ This repository showcases a comprehensive machine learning pipeline, including d
 
 The project is organized into several directories and files to make the workflow more modular and maintainable. Below is the structure:
 
+<pre>
 ├── artifacts/                                  # Stores intermediate outputs like processed data and models
 ├── build/                                      # Build files for the project
 ├── catboost_info/                              # Logs and metadata for CatBoost models
@@ -19,6 +20,9 @@ The project is organized into several directories and files to make the workflow
 │   └── Model_Training.ipynb                    # Notebook for training models
 ├── src/                                        # Source code for the ML pipeline
 │   ├── components/                             # Core components for the pipeline
+│   │   ├── data_ingestion.py                   # Data ingestion logic
+│   │   ├── data_transformation.py              # Data transformation logic
+│   │   └── model_trainer.py                    # Model training logic
 │   ├── pipeline/                               # Training and prediction pipelines
 │   │   ├── train_pipeline.py                   # Training pipeline
 │   │   ├── predict_pipeline.py                 # Prediction pipeline
@@ -34,6 +38,9 @@ The project is organized into several directories and files to make the workflow
 ├── requirements.txt                            # Python dependencies
 ├── setup.py                                    # Setup script for project packaging
 ├── app.py                                      # Main Flask application
+</pre>
+
+
 
 
 
@@ -63,7 +70,7 @@ The project is organized into several directories and files to make the workflow
 ## ⚙️ **Setup Instructions**
 
 ### **Prerequisites**
-- Python 3.9+  
+- Python 
 - Virtual environment (venv) or conda
 
 ---
