@@ -37,7 +37,7 @@ The project is organized into several directories and files to make the workflow
 ├── README.md                                   # Project documentation
 ├── requirements.txt                            # Python dependencies
 ├── setup.py                                    # Setup script for project packaging
-├── app.py                                      # Main Flask application
+├── application.py                              # Main Flask application and for deployment
 </pre>
 
 
