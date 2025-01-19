@@ -96,7 +96,7 @@ The project is organized into several directories and files to make the workflow
 
     - **Windows:**
       ```bash
-      venv\Scripts\activate
+      venv\Scripts\activate      in conda - conda activate venv/
       ```
 
     - **macOS/Linux:**
