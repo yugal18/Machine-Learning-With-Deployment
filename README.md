@@ -111,7 +111,7 @@ The project is organized into several directories and files to make the workflow
 
 6. **Run the Flask Application:**
     ```bash
-    python app.py
+    python application.py
     ```
 
 7. Open the app in your browser at:  
