@@ -119,6 +119,8 @@ The project is organized into several directories and files to make the workflow
 
    [http://127.0.0.1:5000/predictdata]
 
+   ![image_alt](https://github.com/yugal18/Machine-Learning-With-Deployment/blob/66ea848240a7a61a8760dc9dd588854d04541341/Screenshot%202025-01-22%20094258.png)
+
 
 ---
 
