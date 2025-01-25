@@ -65,6 +65,7 @@ The project is organized into several directories and files to make the workflow
   - Comprehensive logging for monitoring pipeline executions.
   - Structured exception handling for easier debugging.
 
+- **Deploy this model on AWS Elastic BeanStalk Using Codepipeline**
 ---
 
 ## ⚙️ **Setup Instructions**
@@ -138,6 +139,7 @@ The project is organized into several directories and files to make the workflow
 - **Frameworks:** Flask
 - **Modeling:** CatBoost, scikit-learn
 - **Visualization:** Jupyter Notebook
+- **Tools:** AWS, Git
 - **Environment:** venv
 
 ---
